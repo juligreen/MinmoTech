@@ -4,7 +4,15 @@ title = "Strata"
 theme = "hugo-strata-theme"
 disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
-googleAnalytics = ""
+googleAnalytics = "<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132997078-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-132997078-1');
+	</script>"
 # Define how many posts should appear on a site
 paginate = 10
 
@@ -29,7 +37,7 @@ paginate = 10
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "Minmo.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**I'm Julius** and this is my blog<br>about programming, 3D and Gaming."
+		bio = "**I'm Julius** and this is my creative outlet."
 		twitter = "@DehnerJulius"
 		github = "juligreen"
 
@@ -39,7 +47,7 @@ paginate = 10
 
 
 	[params.about]
-		hide  = false
+		hide  = true
 		title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
 		content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
 
