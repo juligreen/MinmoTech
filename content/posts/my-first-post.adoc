@@ -1,6 +1,15 @@
 ---
-title: "My First Post"
-date: 2019-01-15T21:41:55+01:00
+title: "This must be the work of an enemy blog!"
+date: 2019-01-23T17:41:55+01:00
 draft: true
+categories: ["Tech"]
 ---
 
+= Blogstarter
+
+Social media is dumb. They all want your attention and none show just the stuff you want.
+And as a content creator, none of them is the ideal platform for all the stuff I make.
+So I decided to make my own! And for this first post I want to explain how I did it.
+That way other people can copy my workflow and tell me how to improve it!
+
+I wanted a static website because... no database, no database problems! Easy editing and
