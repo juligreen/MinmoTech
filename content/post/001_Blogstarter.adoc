@@ -1,6 +1,6 @@
 ---
 title: "This must be the work of an enemy blog!"
-date: 2019-01-23T17:41:55+01:00
+date: 2019-01-24T11:00:55+01:00
 draft: false
 categories: ["Tech"]
 ---
@@ -33,7 +33,16 @@ for a website like mine it's even free. The only thing I have to pay for is my d
 https://gohugo.io/hosting-and-deployment/hosting-on-netlify/[There's actually documentation on this by the Hugo team!]
 
 You have to create a netlify.toml file on the top level on your Hugo project which specifies the Hugo version, the build
-command, and the build location. You commit all this to your git remote (GitHub or similar) and connect it to netlify.
+command, and the build location.
+If you want to use AsciiDoc instead of MarkDown you also need to install it with your build process.
+You can do this by including a Gemfile in the root of your project with the following content:
+```
+source 'https://rubygems.org'
+
+gem 'asciidoctor'
+
+```
+You commit all this to your git remote (GitHub or similar) and connect it to netlify.
 Now you have to confirm build commands, connect your domain (you might have to change the DNS provider) and voilá!
 Your website is online!
 
