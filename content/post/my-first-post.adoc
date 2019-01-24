@@ -1,0 +1,44 @@
+---
+title: "This must be the work of an enemy blog!"
+date: 2019-01-23T17:41:55+01:00
+draft: false
+categories: ["Tech"]
+---
+
+= Blogstarter
+
+Social media is dumb. They all want your attention and none show only the stuff you want.
+And as a content creator, none of them is the ideal platform for all the stuff I make.
+So I decided to make my own!
+I imagine this blog to be a ragbag for all the stuff I make, be it coding articles, art or gaming related stuff,
+all sorted with categories.
+
+And for this first post, I want to explain how I did it.
+That way other people can copy my workflow and tell me how to improve it!
+
+I wanted a static website because... no database, no database problems!
+Easy editing and nice presentation are still important so I turned to my friend https://asciidoctor.org/[Asciidoc].
+I stumbled over https://opensource.com/article/17/8/asciidoc-web-development[this article] by Sarah Thornton in which she
+explains how she writes her blog with AsciiDoc and a framework called https://gohugo.io/[Hugo].
+Hugo can translate MarkDown and AsciiDoc to HTML and CSS which is exactly what I wanted.
+It also supports a contact form through Formspring and comment section through Disqus!
+
+The next thing to think about was deployment. Where to host and with how?
+First I tried a Docker container with AWS but this got too complicated for a static website.
+I looked around some more and found https://www.netlify.com/[netlify] which makes deployment of web projects easy and
+for a website like mine it's even free. The only thing I have to pay for is my domain https://minmo.tech/.
+
+== How does it work?
+
+https://gohugo.io/hosting-and-deployment/hosting-on-netlify/[There's actually documentation on this by the Hugo team!]
+
+You have to create a netlify.toml file on the top level on your Hugo project which specifies the Hugo version, the build
+command, and the build location. You commit all this to your git remote (GitHub or similar) and connect it to netlify.
+Now you have to confirm build commands, connect your domain (you might have to change the DNS provider) and voilá!
+Your website is online!
+
+== What's next on here?
+
+My first article is already finished and ready to go soon (after some proof-reading from friends and family).
+It's gonna be about easy continuous deployment on home projects.
+I also have made some art stuff I'm gonna publish here soon, so look forward to it!
