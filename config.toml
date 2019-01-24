@@ -2,7 +2,7 @@ baseurl = "https://minmo.tech/"
 languageCode = "en-us"
 title = "Minmo Blog"
 theme = "hugo-strata-theme"
-disqusShortname = "spf13"
+disqusShortname = "minmo-tech"
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
