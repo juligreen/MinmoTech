@@ -1,6 +1,6 @@
-baseurl = "https://minmo.tech"
+baseurl = "https://minmo.tech/"
 languageCode = "en-us"
-title = "Strata"
+title = "Minmo Blog"
 theme = "hugo-strata-theme"
 disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
