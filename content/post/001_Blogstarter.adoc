@@ -46,6 +46,8 @@ You commit all this to your git remote (GitHub or similar) and connect it to net
 Now you have to confirm build commands, connect your domain (you might have to change the DNS provider) and voilá!
 Your website is online!
 
+For reference you can also look at the complete sources of this blog on https://github.com/juligreen/MinmoTech[GitHub].
+
 == What's next on here?
 
 I have already finished my first article and ready to go soon (after some proof-reading from friends and family).
