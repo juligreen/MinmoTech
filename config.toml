@@ -4,7 +4,7 @@ title = "Minmo Blog"
 theme = "hugo-strata-theme"
 disqusShortname = "minmo-tech"
 # Enable Google Analytics by inserting your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-132997078-1"
 # Define how many posts should appear on a site
 paginate = 10
 
